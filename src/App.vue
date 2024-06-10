@@ -19,4 +19,8 @@ export default {
 </template>
 
 <style lang="scss">
+a {
+  text-decoration: none;
+  color: black;
+}
 </style>
