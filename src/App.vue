@@ -19,6 +19,10 @@ export default {
 </template>
 
 <style lang="scss">
+li{
+  list-style: none;
+}
+
 a {
   text-decoration: none;
   color: black;
