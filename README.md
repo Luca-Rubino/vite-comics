@@ -14,3 +14,6 @@ Svolgimento:
 
 - Creare i componenti da inserire in App.Vue
 - Creare struttura in App.vue per vedere gli elementi in pagina
+- Creare array oggetti dei vari elementi dei componenti
+- Creare struttura dei componenti in template con i riferimenti all'array oggetto necessario
+- Collegare i componenti ad App.vue
