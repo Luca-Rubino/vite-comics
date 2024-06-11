@@ -1,11 +1,9 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
-import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
 export default {
   components: {
     AppHeader,
-    AppMain,
     AppFooter,
   }
 }
@@ -14,11 +12,22 @@ export default {
 
 <template>
     <AppHeader></AppHeader>
-    <AppMain></AppMain>
     <AppFooter></AppFooter>
 </template>
 
 <style lang="scss">
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 li{
   list-style: none;
 }
