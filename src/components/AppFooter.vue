@@ -1,5 +1,11 @@
 <script>
+import FooterComponent from '../components/FooterComponent.vue';
+
 export default {
+        components: {
+        FooterComponent,
+    },
+
     data() {
         return {
             dcComicsLink: [
@@ -201,9 +207,9 @@ export default {
 
     <footer>
 
-        <div class="container-link">
+        <section class="container-link d-flex">
 
-            <section class="link d-flex">
+            <article class="link d-flex">
                 <nav>
                     <h2>dc comics</h2>
                     <ul>
@@ -237,16 +243,14 @@ export default {
                     </ul>
                 </nav>
                 
-            </section>
+            </article>
         
-            <section class="logo d-flex"></section>
+            <article class="logo d-flex"></article>
 
-        </div>
+        </section>
 
+        <FooterComponent></FooterComponent>
     </footer>
-
-
-
 </template>
 
 <style lang="scss" scoped>
