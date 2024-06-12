@@ -200,8 +200,10 @@ export default {
 <template>
 
     <footer>
+
         <div class="container-link">
-            <section class="link">
+
+            <section class="link d-flex">
                 <nav>
                     <h2>dc comics</h2>
                     <ul>
@@ -227,7 +229,7 @@ export default {
                 </nav>
 
                 <nav>
-                    <h2>dc</h2>
+                    <h2>sites</h2>
                     <ul>
                         <li v-for="title in sites">
                             <a :href="title.link">{{ title.title }}</a>
@@ -237,10 +239,10 @@ export default {
                 
             </section>
         
-            <section class="logo">
-                <img src="../assets/img/dc-logo-bg.png" alt="dc-logo-bg">
-            </section>
+            <section class="logo d-flex"></section>
+
         </div>
+
     </footer>
 
 
