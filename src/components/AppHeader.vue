@@ -110,31 +110,5 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-
-header > div {
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-}
-
-section.list-title {
-  display: flex;
-  align-items: center;
-}
-
-ul{
-  display: flex;
-}
-
-li{
-  margin-right: 1rem;
-}
-
-div.content{
-  background-color: black;
-  color: white;
-  padding: 2rem 13rem;
-  font-size: 1.5rem;
-}
-
+  @use '../../styles/partials/appHeader.sass' as *;
 </style>
