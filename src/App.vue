@@ -16,11 +16,5 @@ export default {
 </template>
 
 <style lang="scss">
-@use'./styles/general.sass' as *;
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-};
+@use'./styles/general.scss' as *;
 </style>

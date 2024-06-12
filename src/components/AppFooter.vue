@@ -248,5 +248,5 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-    @use '../../styles/partials/appFooter.sass' as *;
+    @use '../../styles/partials/appFooter.scss' as *;
 </style>
