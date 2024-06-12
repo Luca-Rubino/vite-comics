@@ -16,24 +16,11 @@ export default {
 </template>
 
 <style lang="scss">
+@use'./styles/general.sass' as *;
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body{
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-li{
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
+};
 </style>
