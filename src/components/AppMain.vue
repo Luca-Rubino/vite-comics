@@ -1,27 +1,41 @@
 <script>
+import Comics from '../components/Comics.vue';
 
 
+export default {
+        components: {
+            Comics,
+        },
+
+    data() {
+        return {
+
+        }
+    },
+}
 
 </script>
 
 <template>
 
     <main>
-        <div class="content">
+        <section class="content">
 
             <p>-->Content goes here<--</p>
             
-        </div>
+        </section>
+
+        <Comics/>
     </main>
 
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @use '../../styles/general.scss' as *;
 @use '../../styles/partials/variable.sass' as *;
 @use '../../styles/partials/mixin.sass' as *;
 
-div.content {
+section.content {
   background-color: black;
   color: white;
   padding: 3rem 13rem;

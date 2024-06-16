@@ -36,7 +36,7 @@ section {
     }
 
     article:first-child {
-        padding-left: 11.5rem;
+        padding-left: 19rem;
     }
 
     article:nth-child(2) {
