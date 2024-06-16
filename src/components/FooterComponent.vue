@@ -35,6 +35,14 @@ section {
         width: 50%;
     }
 
+    article:first-child {
+        padding-left: 11.5rem;
+    }
+
+    article:nth-child(2) {
+        padding-left: 12.5rem;
+    }
+
     button {
         border: 1px solid #008cff;
         background: transparent;
@@ -56,5 +64,4 @@ section {
         margin-right: 1rem;
     }
 }
-
 </style>
