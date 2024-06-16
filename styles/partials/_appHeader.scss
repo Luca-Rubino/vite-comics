@@ -1,15 +1,25 @@
 header {
-  padding: 1rem 0rem;
+  div {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  div:first-of-type {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  img {
+    width: 5rem;
+  }
 }
 
-header img {
-  width: 5rem;
-}
-
-header > div {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
+.jumbotron {
+  background-image: url('../assets/img/jumbotron.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1rem;
 }
 
 section.list-title {
