@@ -19,5 +19,13 @@
     "@vitejs/plugin-vue": "^5.0.4",
     "sass": "^1.77.5",
     "vite": "^5.2.13"
-  }
+  },
+  "description": "Traccia",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "vite-comics"
+  },
+  "author": "Luca-Rubino",
+  "license": "ISC"
 }
