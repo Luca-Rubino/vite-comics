@@ -55,14 +55,6 @@ export default {
 
 </header>
 
-<main>
-    <div class="content">
-
-        <p>-->Content goes here<--</p>
-        
-    </div>
-</main>
-
 </template>
 
 <style lang="scss" scoped>
