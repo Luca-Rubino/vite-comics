@@ -27,11 +27,12 @@ export default{
 
 <style lang="scss" scoped>
     article{
+        width: calc(100% / 6);
         padding: 1rem;
 
         img{
             width: 100%;
-            height: 8rem;
+            height: 16rem;
             object-fit: cover;
             object-position: top;
         }

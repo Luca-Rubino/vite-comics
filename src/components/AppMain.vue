@@ -104,11 +104,13 @@ export default {
             </article>
         </section>
 
+        <!-- 
         <section class="content">
 
-            <p>-->Content goes here<--</p>
+            <p>Content goes here</p>
             
         </section>
+        -->
 
         <Comics/>
     </main>
@@ -132,8 +134,33 @@ section.container{
     background-color: #1c1c1c;
     color: white;
 
-    div.comics{
+    h1 {
+        margin: 0 19rem;
+        position: relative;
+        bottom: 1.2rem;
+        text-transform: uppercase;
+        background-color: #0282f9;
+        width: 9.9rem;
+        padding: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    div.comics {
         display: flex;
+        flex-wrap: wrap;
+        margin: 0 19rem;
+    }
+
+    button{
+        margin-left: 54rem;
+        background-color: #0282f9;
+        border: 0;
+        color: white;
+        font-size: 1rem;
+        font-weight: 900;
+        font-family: "Roboto", sans-serif;
+        padding: .5rem 4rem;
+        margin-bottom: 1rem;
     }
 }
 </style>
